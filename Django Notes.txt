@@ -1,0 +1,69 @@
+Django Notes
+
+1- Model - The data you want to present, usually data from database
+
+2- View - A request handler that returns the relevant template and content-based on the request from the user
+
+3- Template- A text file (like an HTML File) containing the layout of th web page, with logic on how to display the data.
+
+
+Using ( django-admin startproject mysite ) I have created a new project mysite
+
+4- after creating new project Mysite ( New files are created )
+   Mysite 
+   __init__.py  (is a blank file)
+  asgi'py (Asynchronous server Gateway Interface) 
+  settings.py (store projects High Level Settings)
+  Urls.py ( here we define URLS)
+  WSGI.py (web servers gateway interface) ( It helps us hosting the website )
+   
+
+ Manabe.py ( help us to run the server ) 
+
+5- The outer mysite/ root directory is a container for your project. It's name doesn't matter to Django we can rename it to anything you we like
+
+6- manage.py - A command-line utility that lets you interact with this Django project in various ways.
+
+7-  THE INNER MYSITE/ DIRECTORT IS THE ACTUAL PYTHON PACKAGE FOR YPUR PROJECT. iTS NAME IS THE PYTHON PACKAGE NAME YOU'LL NEED TO USE IMPORT ANYTHING INSIDE IT (EG. MYSITE.URLS)
+
+8- mysite/__init__.py: An emplty file that tell python that this directory should be considered a Python Package.
+
+9- mysite/settings.py: setting configuration for this Django project.Django settings will tell you all about how settings work
+
+10- mysite/urls.py: The url declarations for this Django project; a "table of contents" of your Django-powered site.
+
+11- mysite/asgi.py: An entry point for asgi-compatible web servers to serve your project
+
+12- mysite/wsgi.py: An entry-point for WSGI-compatible web servers to serve your project
+
+13- python manage.py runserver ( runs the server with port 8000)
+
+14- Creating the polls app
+
+Each application you write in Django consists of a python package that follows a certain convention. Django comes with a utility that automatically generates the basic directory structure of an app, so you can focus on writing code rather than creating directories
+
+15- Projects vs Apps 
+
+An app is a web application that does something - e.g., a weblog system a database of a public records or a small poll app
+
+A project is a collection of configuration and apps for a particular website. A project can contain multiple apps. An app can be a multiple projects.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

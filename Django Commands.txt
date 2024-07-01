@@ -1,0 +1,19 @@
+Django Commands
+
+1- Django-admin ( to show the functions Django can perform)
+
+2- Django-admin startproject mysite (to start a new project mysite)
+
+3- cd.. to go to the upper directory ( example  c:\Rupyz\django_tutorial\Mysite> ) now I want to go to ( c:\Rupyz\django_tutorial ) using [ cd.. ] I can move
+
+4- ls to list the directory
+
+5- python -m Django --version ( to check the version of Django )
+
+6- python manage.py runserver ( to start the server )
+
+7- python manage.py runserver 8080 ( to change the default server )
+
+8- before that we have to use the command ( python manage.py migrate ) to apply them
+
+9- python manage.py startapp polls ( to create a new directory in Mysite 0
